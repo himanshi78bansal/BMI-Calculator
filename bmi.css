@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: "Lemon", serif;
+    font-weight: 100;
+    /* font-family: 'Libre Baskerville', serif; */
+}
+
+div,p,h1,label,input,button,form{
+    background-color: transparent;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    width: 100%;
+    place-items: center;
+    background: url(/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+#container {
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 15px;
+    font-size: 30px;
+}
+
+.details {
+    background-color: k;
+    display: grid;
+    gap: 6px;
+    margin-left: 30px;
+    margin-top: 15px;
+    padding: 6px;
+}
+
+.weight,
+.height {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.details label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.details input {
+    border: 2px solid black;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 6px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.details button {
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    padding: 8px;
+    background: green;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.details button[type="reset"] {
+    background: #444;
+}
+
+.details button:hover {
+    filter: brightness(150%);
+}
+
+.show {
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.value {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.result {
+    font-size: 18px;
+}
+
+.scale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.UnderWeight {
+    padding: 10px;
+    border-top: 5px solid brown;
+}
+
+.Healthy {
+    padding: 10px;
+    border-top: 5px solid green;
+}
+
+.OverWeight {
+    padding: 10px;
+    border-top: 5px solid orange;
+}
+
+.Obese {
+    padding: 10px;
+    border-top: 5px solid red;
+}

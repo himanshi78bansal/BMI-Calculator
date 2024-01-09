@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>bmi</title>
+        <link rel="stylesheet" href="bmi.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lemon&family=Libre+Baskerville&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="container">
+            <div class = "section">
+                <h1>BMI Calculator</h1>
+                <!-- form -->
+                <form class="details">
+                    <div class="weight">
+                        <label for="weight">Weight (in kgs)</label>
+                        <input
+                            type="number"
+                            id="weight"
+                            min="0"
+                            step="0.01"
+                            value="0"
+                        /><br />
+                    </div>
+                    <div class="height">
+                        <label for="height">Height (in cms)</label>
+                        <input
+                            type="number"
+                            id="height"
+                            min="0"
+                            step="0.01"
+                            value="0"
+                        /><br />
+                    </div>
+
+                    <div class="btn">
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- show -->
+            <div class="show">
+                <p>Your BMI</p>
+                <p class="value">0</p>
+                <p class="result">N/A</p>
+            </div>
+            <!-- Scale -->
+            <div class="scale">
+                <div class="UnderWeight">
+                    <p>UnderWeight</p>
+                    <p><18.5</p>
+                </div>
+                <div class="Healthy">
+                    <p>Healthy</p>
+                    <p>18.5-25</p>
+                </div>
+                <div class="OverWeight">
+                    <p>OverWeight</p>
+                    <p>25-30</p>
+                </div>
+                <div class="Obese">
+                    <p>Obese</p>
+                    <p>>30</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="bmi.js"></script>
+    </body>
+</html>
