@@ -1,5 +1,6 @@
 # BMI-Calculator
 bmi calculator using HTML, CSS, JS
+![Uploading newLook.jpg…]()
 ![main](https://github.com/Himanshi7Bansal/BMI-Calculator/assets/101702840/0ab061d5-6a1b-4f13-919b-fec2337ceabe)
 ![underWeight](https://github.com/Himanshi7Bansal/BMI-Calculator/assets/101702840/e21fbe57-aed3-42ba-b02f-2b8a6625aaf0)
 ![healthy](https://github.com/Himanshi7Bansal/BMI-Calculator/assets/101702840/70f47b20-8674-4434-a308-221a1ba526dc)
